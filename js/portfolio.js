@@ -68,17 +68,23 @@ $(document).ready(function(){
 			if( $(window).scrollTop() >2000){
 				$("#burts").addClass("act");
 			}
-			if( $(window).scrollTop() >2500){
+			if( $(window).scrollTop() >2600){
 				$("#burts2").addClass("act");
 			}
-			if( $(window).scrollTop() >3000){
+			if( $(window).scrollTop() >3200){
 				$("#tae").addClass("act");
 			}
-			if( $(window).scrollTop() >3500){
+			if( $(window).scrollTop() >3800){
 				$("#asas").addClass("act");
 			}
-			if( $(window).scrollTop() >4200){
+			if( $(window).scrollTop() >4400){
 				$("#burts3").addClass("act");
+			}
+			if( $(window).scrollTop() >5000){
+				$("#ship").addClass("act");
+			}
+			if( $(window).scrollTop() >5600){
+				$("#togather").addClass("act");
 			}
 			
 			//상단메뉴 'Event' 항목 활성화 (파란글씨)

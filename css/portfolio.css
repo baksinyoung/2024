@@ -15,7 +15,8 @@ img {display:block; max-width:100%;}
 a {text-decoration:none;}
 
 .area {
-	min-height:50vh; padding-top:11vh;
+	min-height:50vh; padding-top:11vh;   padding-bottom: 11vh;
+
 }
 
 
@@ -201,12 +202,51 @@ transform:translateX(0pt); /*두 div 제자리*/
 }
 
 /*여섯번째 포폴*/
+/*
 #burts3 {
 	padding:10vh 0 18vh 0;
 	transform:translateY(100px); opacity:0;
 	transition:1s;
 }
 #burts3.act {transform:translateY(0px); opacity:1;}
+
+#burts3>div:first-child {
+	transform:translateX(-450pt);/*왼쪽이동*/  
+	/*transition:3s;
+}*/
+
+/*여섯번째 포폴*/
+#burts3>div:last-child {
+	transform:translateX(600pt);/*오른쪽이동*/
+	transition:3s;
+}
+#burts3.act>div {
+transform:translateX(0pt); /*두 div 제자리*/
+}
+
+/*일곱번째 포폴*/
+
+#ship>div:first-child {
+	transform:translateX(-450pt);/*왼쪽이동*/
+	transition:3s;
+}
+#ship>div:last-child {
+	transform:translateX(600pt);/*오른쪽이동*/
+	transition:3s;
+}
+#ship.act>div {
+transform:translateX(0pt); /*두 div 제자리*/
+}
+
+
+/*여덟번째 포폴*/
+#togather {
+	padding:10vh 0 18vh 0;
+	transform:translateY(100px); opacity:0;
+	transition:1s;
+}
+#togather.act {transform:translateY(0px); opacity:1;}
+
 
 /*******************/
 /*이벤트*/
@@ -333,6 +373,8 @@ margin-top:10%;
 		#burts2 {flex-direction:column;}
 		#tae  {flex-direction:column-reverse;}
 		#asas {flex-direction:column;}
+		#ship {flex-direction:column;}
+		#togather {flex-direction:column;}
 		#portfolio nav {padding-left:70px;}
 }
 

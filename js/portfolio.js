@@ -86,7 +86,9 @@ $(document).ready(function(){
 			if( $(window).scrollTop() >5600){
 				$("#togather").addClass("act");
 			}
-			
+			if( $(window).scrollTop() >6000){
+				$("#sinse").addClass("act");
+			}
 			//상단메뉴 'Event' 항목 활성화 (파란글씨)
 			if( $(window).scrollTop() >= pos_3 - 100){
 				$("body>nav a").removeClass("act");
